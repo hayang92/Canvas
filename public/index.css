@@ -1,0 +1,106 @@
+/**
+ * Fix user-agent
+ */
+  
+ * {
+    box-sizing: border-box;
+  }
+
+  @import "reset.css";
+  body {
+    background-color: #f6f9fc;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding: 50px 0px;
+  }
+  
+  /**
+   * Canvas
+   */
+
+   .head {
+     margin-left: 230px;
+     margin-top: 10px;
+     
+   }
+  
+  .whiteboard {
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    
+}
+  
+  .colors {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .sizes {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .size {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    background-color: rgb(0, 255, 136);
+    margin: 1px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    padding-top: 12px;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  }
+
+  .clear-all {
+    width: 96px;
+  }
+  .size:hover {
+    border-radius: 25px;
+
+}
+
+  
+  .color {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    margin: 1px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  /* .color:hover {
+        border-radius: 25px;
+
+  } */
+  
+
+  .color.black { background-color: rgb(0, 0, 0); }
+  .color.red { background-color: red; }
+  .color.green { background-color: green; }
+  .color.blue { background-color: blue; }
+  .color.yellow { background-color: yellow; }
+  .color.white {background-color: white; border: 1px solid whitesmoke;}
+  .eraser {padding-top: 5px; padding-left: 5px;}
+
+.credit {
+  color: rgb(0, 255, 136);
+}
+.githubLink {
+  text-decoration: none;
+  color: dodgerblue;
+
+}
